@@ -1,0 +1,101 @@
+*
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+body
+{
+    font-size:16px;
+}
+
+.container
+{
+    width:100%;
+}
+
+.banner
+{
+    width:100%;
+    height:100vh;
+    background-position:center center;
+    background: url("images/overlay.png"), url("images/bogazici_koprusu.jpg");
+    background-size:cover;
+    position:relative;
+    box-sizing:border-box;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+}
+
+header
+{
+    margin:0 auto;
+    position:absolute;  
+    width:100%;
+    align-self:flex-start;
+}
+
+header h1
+{
+    color:#fff;
+    font-size:2em;
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+}
+
+.navbar ul
+{
+    position:absolute;
+    float:right;
+    right:20px;
+    top:0;
+}
+
+.navbar ul li
+{
+    display:block;
+    padding:1.2em;
+    float:left;
+}
+
+.navbar ul li a
+{
+    color:#fff;
+    font-size:1.8em;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.navbar ul li a:hover
+{
+    color:#ff0800;
+    transition: color 0.3s ease-in-out;
+}
+
+.welcome h2
+{
+    color:#fff;
+    font-size:3em;  
+    margin-bottom:50px;
+}
+
+.welcome .visit li a
+{
+    text-decoration:none;
+    font-size:1.3em;
+    font-weight:900;
+    color:white;
+    padding:1em 2em;
+    background:#3cadd4;
+    border-radius:2em;
+}
+
+.welcome .visit li a:hover
+{
+    background-color:#ff0800;
+    transition: background-color 0.2s ease-in-out;
+}
