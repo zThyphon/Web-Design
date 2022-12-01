@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Set Tab Title-->
+    <title>Mustafa Blog</title>
+    <!--Set Tab Icon-->
+    <link rel="shortcut icon" href="icons/blog_icon.png">
+    <!-- Add Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--Add CSS File -->
+    <link href="projects_css.css" rel="stylesheet">
+</head>
+<body>
+    <section class="container-fluid section1">
+        <div class="overlay"></div>
+        <div class="container mycontainer">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+                <img src="icons/navbar_icon.png" width="40" height="40" class="d-inline-block align-top" alt="">
+
+                <!-- Mustafa Blog Header -->
+                <a class="navbar-brand"><span>Mustafa </span><span class="span"> Blog</span></a>
+
+                <!-- Navbar Button (For Small Screens)-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Page Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home Page <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="certificates.html">Certificates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cv.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="communication.html">Communication</a>
+                        </li> 
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Page Content -->
+            <div class="container projects-container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+
+                        <!-- Projects Header -->
+						<h2 class="project_header text-success" style="text-style:italic;"><i>Projects</i></h2>
+                    </div>
+                    <div class="col-md-4"></div>
+
+                    <!-- Projects Div -->
+                    <div class="col-md-12 carousel-container">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                            </ol>
+                            
+                            <!-- Projects Slider -->
+                            <div class="carousel-inner">
+                                <!-- QR Code Creator  -->
+                                <div class="carousel-item active">
+                                    <h5>QR Code Creator</h5>
+                                    <img src="projects/qr_code_creator.png" class="d-block w-100" alt="qr_code_creator">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+
+                                <!-- Draw Application-->
+                                <div class="carousel-item">
+                                    <h5>Draw Application
+                                    </h5>
+                                    <img src="projects/draw_application.jpg" class="d-block w-100" alt="draw_application">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+
+                                <!-- Password Generator  -->
+                                <div class="carousel-item">
+                                    <h5>Password Generator</h5>
+                                    <img src="projects/password_generator.png" class="d-block w-100" alt="password_generator">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+
+                                <!-- Text Editor -->
+                                <div class="carousel-item">
+                                    <h5>Text Editor
+                                    </h5>
+                                    <img src="projects/text_editor.png" class="d-block w-100" alt="text_editor">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+
+                                <!-- Video Downloader -->
+                                <div class="carousel-item">
+                                    <h5>Video Downloader</h5>
+                                    <img src="projects/video_downloader.png" class="d-block w-100" alt="video_downloader">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slider Next Button -->
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+
+                            <!-- Slider Previous Button -->
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <!-- Footer -->
+        <footer class="bg-dark py-5 myfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-2 social">
+
+                        <!--Mail Link -->
+                        <a href="mailto:mustafacil198@gmail.com"><img src="icons/mail_icon.png" id="email"></a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-2 social">
+
+                        <!--Github Link -->
+                        <a href="https://github.com/zThyphon" target="_blank" title="github"><img src="icons/github_icon.png"></a>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-2 social">
+
+                        <!--Linkedin Link -->
+                        <a href="https://www.linkedin.com/in/mustafa-doruk-%C3%A7il-602a33217/" target="_blank" title="linkedin"><img src="icons/linkedin_icon.png" id="linkedin"></a>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-4"></div>
+                    <div class="col-md-12 copyright">
+
+                        <!-- Reference -->
+                        <p>This website Developed by Mustafa Doruk ÇİL<br>© 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Add jQuery -->
+    <script src="bootstrap/js/jquery-3.4.1.min.js"></script>     
+    <!-- Add Bootstrap -->
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
